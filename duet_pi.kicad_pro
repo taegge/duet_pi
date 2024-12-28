@@ -14,8 +14,8 @@
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
-        "dimension_precision": 1,
-        "dimension_units": 0,
+        "dimension_precision": 4,
+        "dimension_units": 3,
         "dimensions": {
           "arrow_length": 1270000,
           "extension_offset": 500000,
@@ -41,34 +41,17 @@
           "height": 1.524,
           "width": 1.524
         },
-        "silk_line_width": 0.12,
+        "silk_line_width": 0.1,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        },
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        },
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -87,9 +70,10 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -103,12 +87,12 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "error",
+        "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -122,29 +106,25 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
-        "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
       "rules": {
-        "allow_blind_buried_vias": false,
-        "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.01,
-        "min_hole_clearance": 0.0,
-        "min_hole_to_hole": 0.24,
+        "min_copper_edge_clearance": 0.5,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.25,
-        "min_track_width": 0.1,
-        "min_via_annular_width": 0.05,
-        "min_via_annulus": 0.049999999999999996,
-        "min_via_diameter": 0.45,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.0,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -191,18 +171,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.127,
-        0.13,
-        0.147,
-        0.2,
-        0.23,
-        0.5,
-        1.0,
-        2.0,
-        3.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -229,18 +198,8 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 0.45,
-          "drill": 0.25
-        }
-      ],
-      "zones_allow_external_fillets": false,
-      "zones_use_no_outline": false
+      "via_dimensions": [],
+      "zones_allow_external_fillets": false
     },
     "ipc2581": {
       "dist": "",
@@ -434,7 +393,6 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
       "conflicting_netclasses": "error",
@@ -444,7 +402,7 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
-      "global_label_dangling": "error",
+      "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
@@ -452,15 +410,15 @@
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
       "missing_unit": "warning",
-      "multiple_net_names": "error",
-      "net_not_bus_member": "error",
-      "no_connect_connected": "error",
-      "no_connect_dangling": "error",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
-      "similar_labels": "error",
+      "similar_labels": "warning",
       "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
@@ -480,121 +438,19 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.13,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.13,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.13,
-        "via_diameter": 0.45,
-        "via_drill": 0.25,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.13,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.13,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "100R",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
-        "via_diameter": 0.45,
-        "via_drill": 0.25,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.13,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.178,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "50R",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.13,
-        "via_diameter": 0.45,
-        "via_drill": 0.25,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.13,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.13,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "75R",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.13,
-        "via_diameter": 0.45,
-        "via_drill": 0.25,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.13,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.15,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "90R",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.147,
-        "via_diameter": 0.45,
-        "via_drill": 0.25,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.13,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.13,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "HDMI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
-        "via_diameter": 0.45,
-        "via_drill": 0.25,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 1.0,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.13,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "POE TAPS",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.13,
-        "via_diameter": 0.45,
-        "via_drill": 0.25,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -603,314 +459,25 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD0_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD0_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD1_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD1_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD2_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD2_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD3_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD3_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/CAM0_C_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/CAM0_C_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/CAM0_D0_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/CAM0_D0_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/CAM0_D1_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/CAM0_D1_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/CAM1_C_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/CAM1_C_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/CAM1_D0_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/CAM1_D0_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/CAM1_D1_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/CAM1_D1_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/CAM1_D2_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/CAM1_D2_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/CAM1_D3_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/CAM1_D3_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/DSI0_C_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/DSI0_C_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/DSI0_D0_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/DSI0_D0_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/DSI0_D1_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/DSI0_D1_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/DSI1_C_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/DSI1_C_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/DSI1_D0_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/DSI1_D0_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/DSI1_D1_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/DSI1_D1_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/DSI1_D2_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/DSI1_D2_P"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/DSI1_D3_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM4_HighSpeed/DSI1_D3_P"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/HD1_N"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/HD1_P"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/HD2_N"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/HD2_P"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/HD3_N"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/HD3_P"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/HD4_N"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/HD4_P"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/USBD_N"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/USBD_P"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/USBH_N"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/USBH_P"
-      },
-      {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI0_CK_N"
-      },
-      {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI0_CK_P"
-      },
-      {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI0_D0_N"
-      },
-      {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI0_D0_P"
-      },
-      {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI0_D1_N"
-      },
-      {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI0_D1_P"
-      },
-      {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI0_D2_N"
-      },
-      {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI0_D2_P"
-      },
-      {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI1_CK_N"
-      },
-      {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI1_CK_P"
-      },
-      {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI1_D0_N"
-      },
-      {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI1_D0_P"
-      },
-      {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI1_D1_N"
-      },
-      {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI1_D1_P"
-      },
-      {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI1_D2_N"
-      },
-      {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI1_D2_P"
-      },
-      {
-        "netclass": "POE TAPS",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR0_TAP"
-      },
-      {
-        "netclass": "POE TAPS",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR1_TAP"
-      },
-      {
-        "netclass": "POE TAPS",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR2_TAP"
-      },
-      {
-        "netclass": "POE TAPS",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR3_TAP"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "CM4IO.net",
+      "netlist": "",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
-      "vmrl": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -972,11 +539,8 @@
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
-      "default_bus_thickness": 12.0,
-      "default_junction_size": 40.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "default_wire_thickness": 6.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
@@ -984,14 +548,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.3,
+      "label_size_ratio": 0.375,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
       "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.3
+      "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -999,18 +563,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
-    "plot_directory": "Circuits",
-    "spice_adjust_passive_values": false,
+    "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -1022,28 +576,24 @@
   },
   "sheets": [
     [
-      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+      "c80e2680-7312-4906-8194-724a8268cfde",
       "Root"
     ],
     [
-      "00000000-0000-0000-0000-00005e072e02",
-      "USB2-HUB"
+      "e3e62561-d6ae-45a8-b943-e1248579fa09",
+      "CM5_GPIO ( Ethernet, GPIO, SDCARD)"
     ],
     [
-      "00000000-0000-0000-0000-00005e328d89",
-      "RTC , Wakeup, FAN"
+      "b17c54df-adeb-4eee-8bac-db7860d2fd74",
+      "CM5_HighSpeed"
     ],
     [
-      "00000000-0000-0000-0000-00005cff70b1",
-      "CM4_HighSpeed"
+      "d7b8ce31-b426-4b84-8730-2ca9f82012ca",
+      "PCIe-M2"
     ],
     [
-      "00000000-0000-0000-0000-00005cff706a",
-      "CM4_GPIO ( Ethernet, GPIO, SDCARD)"
-    ],
-    [
-      "00000000-0000-0000-0000-00005d31f999",
-      "PSUs"
+      "0b5a332f-b32e-4359-8448-44e694f7fb70",
+      "misc"
     ]
   ],
   "text_variables": {}
