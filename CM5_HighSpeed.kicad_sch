@@ -12534,7 +12534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 102.5652 186.69 0)
 			(effects
 				(font
@@ -12543,7 +12543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+		(property "Datasheet" ""
 			(at 101.6 182.88 0)
 			(effects
 				(font
@@ -12607,6 +12607,15 @@
 			)
 		)
 		(property "Field8" "111893011"
+			(at 101.6 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "1276-1096-1-ND "
 			(at 101.6 182.88 0)
 			(effects
 				(font
@@ -13111,7 +13120,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "58c58e1c-eaf3-479f-9035-9fdc05bd3422")
 		(property "Reference" "J4"
 			(at 195.453 115.443 0)
@@ -13323,7 +13332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 31.4452 185.42 0)
 			(effects
 				(font
@@ -13332,7 +13341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+		(property "Datasheet" ""
 			(at 30.48 181.61 0)
 			(effects
 				(font
@@ -13396,6 +13405,15 @@
 			)
 		)
 		(property "Field8" "111893011"
+			(at 30.48 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "1276-1096-1-ND "
 			(at 30.48 181.61 0)
 			(effects
 				(font
@@ -13699,7 +13717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 199.0852 156.21 0)
 			(effects
 				(font
@@ -13708,7 +13726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
+		(property "Datasheet" ""
 			(at 198.12 152.4 0)
 			(effects
 				(font
@@ -13772,6 +13790,15 @@
 			)
 		)
 		(property "Field8" "110091611"
+			(at 198.12 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "1276-1003-1-ND"
 			(at 198.12 152.4 0)
 			(effects
 				(font
@@ -13887,7 +13914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 112.7252 186.69 0)
 			(effects
 				(font
@@ -13896,7 +13923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+		(property "Datasheet" ""
 			(at 111.76 182.88 0)
 			(effects
 				(font
@@ -13960,6 +13987,15 @@
 			)
 		)
 		(property "Field8" "111893011"
+			(at 111.76 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "1276-1096-1-ND "
 			(at 111.76 182.88 0)
 			(effects
 				(font
@@ -14197,6 +14233,15 @@
 			)
 		)
 		(property "Part Description" "22 Position FFC, FPC Connector Contacts, Bottom 0.020\" (0.50mm) Surface Mount, Right Angle"
+			(at 157.48 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "HFJ122CT-ND"
 			(at 157.48 123.19 0)
 			(effects
 				(font
@@ -14626,7 +14671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 232.1052 156.21 0)
 			(effects
 				(font
@@ -14635,7 +14680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
+		(property "Datasheet" ""
 			(at 231.14 152.4 0)
 			(effects
 				(font
@@ -14699,6 +14744,15 @@
 			)
 		)
 		(property "Field8" "110091611"
+			(at 231.14 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "1276-1003-1-ND"
 			(at 231.14 152.4 0)
 			(effects
 				(font
@@ -16076,6 +16130,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "718-1100-1-ND"
+			(at 88.9 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "45609891-76d9-4994-b402-f463edb313b5")
 		)
@@ -16247,6 +16310,15 @@
 			)
 		)
 		(property "Part Description" "22 Position FFC, FPC Connector Contacts, Bottom 0.020\" (0.50mm) Surface Mount, Right Angle"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "HFJ122CT-ND"
 			(at 157.48 52.07 0)
 			(effects
 				(font

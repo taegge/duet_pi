@@ -1183,6 +1183,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 135.89) (xy 39.37 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f367224-00d5-4fc2-8f81-b7fe36c8edc0")
+	)
+	(wire
+		(pts
 			(xy 189.23 52.07) (xy 217.17 52.07)
 		)
 		(stroke
@@ -1565,6 +1575,17 @@
 			(justify left bottom)
 		)
 		(uuid "0bd8ddad-1635-4c53-9dc0-6bd22d6c426d")
+	)
+	(label "+5v"
+		(at 25.4 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15a4b87e-840f-4744-b6c4-5320e8fbbddc")
 	)
 	(label "USB2_P"
 		(at 77.47 68.58 180)
@@ -2192,7 +2213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 75.8952 86.36 0)
 			(effects
 				(font
@@ -2201,7 +2222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
+		(property "Datasheet" ""
 			(at 74.93 82.55 0)
 			(effects
 				(font
@@ -2265,6 +2286,15 @@
 			)
 		)
 		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 74.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "1276-1003-1-ND"
 			(at 74.93 82.55 0)
 			(effects
 				(font
@@ -2315,7 +2345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 87.3252 86.36 0)
 			(effects
 				(font
@@ -2324,7 +2354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
+		(property "Datasheet" ""
 			(at 86.36 82.55 0)
 			(effects
 				(font
@@ -2388,6 +2418,15 @@
 			)
 		)
 		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 86.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "1276-1003-1-ND"
 			(at 86.36 82.55 0)
 			(effects
 				(font
@@ -2440,6 +2479,16 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "5v" input
+			(at 39.37 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "373011a1-558c-486f-97f3-70080705c4ab")
 		)
 		(instances
 			(project "duet_pi"
