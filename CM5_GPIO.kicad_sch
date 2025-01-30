@@ -11042,6 +11042,262 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_3_Bridged12"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Bridged12"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged12*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Bridged12_0_1"
+				(rectangle
+					(start -1.016 0.508)
+					(end -0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Bridged12_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LED_1"
 			(pin_numbers hide)
 			(pin_names
@@ -11662,12 +11918,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9ee8abc-e08c-4a2c-8add-3a96a69582d2")
-	)
-	(junction
-		(at 331.47 132.08)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "bcad9705-4769-4185-8da8-9e9b9ab8bb76")
 	)
 	(junction
 		(at 241.3 74.93)
@@ -12629,7 +12879,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 132.08) (xy 323.85 132.08)
+			(xy 318.77 129.54) (xy 327.66 129.54)
 		)
 		(stroke
 			(width 0)
@@ -12799,7 +13049,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 132.08) (xy 346.71 132.08)
+			(xy 331.47 134.62) (xy 334.01 134.62)
 		)
 		(stroke
 			(width 0)
@@ -14109,16 +14359,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 132.08) (xy 331.47 135.89)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "afd88f8c-435b-4186-924c-295d1b2dd53c")
-	)
-	(wire
-		(pts
 			(xy 137.16 54.61) (xy 148.59 54.61)
 		)
 		(stroke
@@ -14289,7 +14529,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 135.89) (xy 323.85 135.89)
+			(xy 318.77 139.7) (xy 327.66 139.7)
 		)
 		(stroke
 			(width 0)
@@ -15291,7 +15531,6 @@
 	)
 	(label "GPIO7"
 		(at 170.18 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15302,7 +15541,6 @@
 	)
 	(label "GND"
 		(at 22.86 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15313,7 +15551,6 @@
 	)
 	(label "TR0_TAP"
 		(at 194.2084 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15324,7 +15561,6 @@
 	)
 	(label "GPIO7"
 		(at 170.18 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15335,7 +15571,6 @@
 	)
 	(label "GPIO11"
 		(at 144.78 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15346,7 +15581,6 @@
 	)
 	(label "CC1"
 		(at 24.13 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15357,7 +15591,6 @@
 	)
 	(label "GPIO13"
 		(at 144.78 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15368,7 +15601,6 @@
 	)
 	(label "GPIO11"
 		(at 20.32 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15379,7 +15611,6 @@
 	)
 	(label "+3.3v"
 		(at 144.78 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15390,7 +15621,6 @@
 	)
 	(label "GPIO14"
 		(at 171.45 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15401,7 +15631,6 @@
 	)
 	(label "ID_SD"
 		(at 143.51 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15412,7 +15641,6 @@
 	)
 	(label "GPIO23"
 		(at 171.45 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15423,7 +15651,6 @@
 	)
 	(label "GND"
 		(at 22.86 180.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15433,8 +15660,7 @@
 		(uuid "1693ac89-e69c-45c5-81f1-1d717f501622")
 	)
 	(label "+3.3v"
-		(at 320.04 132.08 180)
-		(fields_autoplaced yes)
+		(at 323.85 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15445,7 +15671,6 @@
 	)
 	(label "TRD0_P"
 		(at 20.32 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15456,7 +15681,6 @@
 	)
 	(label "nPWR_LED"
 		(at 161.29 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15467,7 +15691,6 @@
 	)
 	(label "GPIO10"
 		(at 20.32 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15478,7 +15701,6 @@
 	)
 	(label "SD_DAT0"
 		(at 107.95 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15489,7 +15711,6 @@
 	)
 	(label "GPIO4"
 		(at 143.51 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15500,7 +15721,6 @@
 	)
 	(label "GPIO27"
 		(at 144.78 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15511,7 +15731,6 @@
 	)
 	(label "GPIO6"
 		(at 143.51 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15522,7 +15741,6 @@
 	)
 	(label "+3.3v"
 		(at 22.86 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15533,7 +15751,6 @@
 	)
 	(label "GPIO8"
 		(at 170.18 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15544,7 +15761,6 @@
 	)
 	(label "+3.3v"
 		(at 187.96 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15555,7 +15771,6 @@
 	)
 	(label "TRD1_P"
 		(at 241.3 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15566,7 +15781,6 @@
 	)
 	(label "TRD0_P"
 		(at 241.3 24.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15577,7 +15791,6 @@
 	)
 	(label "SD_DAT3"
 		(at 219.71 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15588,7 +15801,6 @@
 	)
 	(label "GPIO9"
 		(at 143.51 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15599,7 +15811,6 @@
 	)
 	(label "TR2_TAP"
 		(at 242.57 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15610,7 +15821,6 @@
 	)
 	(label "SD_DAT1"
 		(at 219.71 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15621,7 +15831,6 @@
 	)
 	(label "TR1_TAP"
 		(at 194.31 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15632,7 +15841,6 @@
 	)
 	(label "GPIO24"
 		(at 171.45 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15643,7 +15851,6 @@
 	)
 	(label "GPIO18"
 		(at 171.45 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15654,7 +15861,6 @@
 	)
 	(label "GPIO12"
 		(at 171.45 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15665,7 +15871,6 @@
 	)
 	(label "GPIO19"
 		(at 20.32 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15676,7 +15881,6 @@
 	)
 	(label "TR2_TAP"
 		(at 218.1098 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15687,7 +15891,6 @@
 	)
 	(label "GPIO22"
 		(at 144.78 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15698,7 +15901,6 @@
 	)
 	(label "+3.3v"
 		(at 144.78 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15709,7 +15911,6 @@
 	)
 	(label "GPIO18"
 		(at 171.45 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15720,7 +15921,6 @@
 	)
 	(label "GND"
 		(at 22.86 187.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15731,7 +15931,6 @@
 	)
 	(label "GPIO17"
 		(at 20.32 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15742,7 +15941,6 @@
 	)
 	(label "PMIC_ENABLE"
 		(at 113.03 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15753,7 +15951,6 @@
 	)
 	(label "SD_PWR_ON"
 		(at 257.175 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15764,7 +15961,6 @@
 	)
 	(label "+1.8v"
 		(at 22.86 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15775,7 +15971,6 @@
 	)
 	(label "TRD1_P"
 		(at 189.23 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15786,7 +15981,6 @@
 	)
 	(label "GPIO3"
 		(at 143.51 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15797,7 +15991,6 @@
 	)
 	(label "TRD0_P"
 		(at 223.52 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15808,7 +16001,6 @@
 	)
 	(label "ID_SC"
 		(at 170.18 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15819,7 +16011,6 @@
 	)
 	(label "GPIO15"
 		(at 171.45 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15830,7 +16021,6 @@
 	)
 	(label "GPIO25"
 		(at 171.45 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15841,7 +16031,6 @@
 	)
 	(label "ID_SD"
 		(at 20.32 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15852,7 +16041,6 @@
 	)
 	(label "ETH_LEDY"
 		(at 99.314 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15863,7 +16051,6 @@
 	)
 	(label "TRD3_P"
 		(at 189.23 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15874,7 +16061,6 @@
 	)
 	(label "GPIO2"
 		(at 143.51 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15885,7 +16071,6 @@
 	)
 	(label "GPIO5"
 		(at 143.51 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15896,7 +16081,6 @@
 	)
 	(label "nPWR_LED"
 		(at 100.33 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15907,7 +16091,6 @@
 	)
 	(label "+5v"
 		(at 166.37 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15918,7 +16101,6 @@
 	)
 	(label "EEPROM_nWP"
 		(at 53.848 175.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15929,7 +16111,6 @@
 	)
 	(label "GPIO20"
 		(at 171.45 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15940,7 +16121,6 @@
 	)
 	(label "VBAT"
 		(at 110.49 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15951,7 +16131,6 @@
 	)
 	(label "GPIO14"
 		(at 106.68 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15962,7 +16141,6 @@
 	)
 	(label "+3.3v"
 		(at 176.53 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15973,7 +16151,6 @@
 	)
 	(label "TRD3_N"
 		(at 99.314 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15984,7 +16161,6 @@
 	)
 	(label "SD_DAT0"
 		(at 219.71 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15995,7 +16171,6 @@
 	)
 	(label "GPIO23"
 		(at 106.68 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16006,7 +16181,6 @@
 	)
 	(label "TRD1_N"
 		(at 20.32 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16017,7 +16191,6 @@
 	)
 	(label "GPIO27"
 		(at 20.32 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16028,7 +16201,6 @@
 	)
 	(label "+3.3v"
 		(at 240.03 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16039,7 +16211,6 @@
 	)
 	(label "SYNC_OUT"
 		(at 20.32 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16050,7 +16221,6 @@
 	)
 	(label "GPIO19"
 		(at 144.78 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16061,7 +16231,6 @@
 	)
 	(label "SD_CLK"
 		(at 219.71 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16072,7 +16241,6 @@
 	)
 	(label "TRD2_N"
 		(at 223.52 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16083,7 +16251,6 @@
 	)
 	(label "GPIO21"
 		(at 171.45 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16094,7 +16261,6 @@
 	)
 	(label "TRD3_N"
 		(at 189.23 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16105,7 +16271,6 @@
 	)
 	(label "+3.3v"
 		(at 270.51 153.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16116,7 +16281,6 @@
 	)
 	(label "SD_CLK"
 		(at 106.68 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16127,7 +16291,6 @@
 	)
 	(label "ETH_LEDG"
 		(at 223.52 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16138,7 +16301,6 @@
 	)
 	(label "SD_DAT2"
 		(at 107.95 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16149,7 +16311,6 @@
 	)
 	(label "EEPROM_nWP"
 		(at 20.32 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16160,7 +16321,6 @@
 	)
 	(label "TRD3_N"
 		(at 241.3 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16171,7 +16331,6 @@
 	)
 	(label "PMIC_ENABLE"
 		(at 53.975 185.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16182,7 +16341,6 @@
 	)
 	(label "GPIO15"
 		(at 171.45 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16193,7 +16351,6 @@
 	)
 	(label "TRD1_N"
 		(at 241.3 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16204,7 +16361,6 @@
 	)
 	(label "TRD1_N"
 		(at 189.23 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16215,7 +16371,6 @@
 	)
 	(label "+3.3v"
 		(at 113.03 21.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16226,7 +16381,6 @@
 	)
 	(label "PWR_BUT"
 		(at 23.876 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16237,7 +16391,6 @@
 	)
 	(label "TRD2_N"
 		(at 99.06 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16248,7 +16401,6 @@
 	)
 	(label "ID_SC"
 		(at 105.41 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16259,7 +16411,6 @@
 	)
 	(label "PWM"
 		(at 99.06 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16270,7 +16421,6 @@
 	)
 	(label "SD_CMD"
 		(at 219.71 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16281,7 +16431,6 @@
 	)
 	(label "GPIO21"
 		(at 106.68 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16292,7 +16441,6 @@
 	)
 	(label "GPIO25"
 		(at 106.68 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16303,7 +16451,6 @@
 	)
 	(label "TRD2_P"
 		(at 223.52 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16314,7 +16461,6 @@
 	)
 	(label "GPIO10"
 		(at 144.78 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16325,7 +16471,6 @@
 	)
 	(label "SD_DAT1"
 		(at 107.95 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16336,7 +16481,6 @@
 	)
 	(label "GPIO12"
 		(at 106.68 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16347,7 +16491,6 @@
 	)
 	(label "GPIO15"
 		(at 106.68 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16358,7 +16501,6 @@
 	)
 	(label "GPIO17"
 		(at 144.78 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16369,7 +16511,6 @@
 	)
 	(label "GPIO13"
 		(at 20.32 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16380,7 +16521,6 @@
 	)
 	(label "GPIO6"
 		(at 20.32 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16391,7 +16531,6 @@
 	)
 	(label "GPIO22"
 		(at 144.78 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16402,7 +16541,6 @@
 	)
 	(label "GPIO7"
 		(at 105.41 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16413,7 +16551,6 @@
 	)
 	(label "GPIO16"
 		(at 106.68 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16424,7 +16561,6 @@
 	)
 	(label "GPIO8"
 		(at 170.18 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16435,7 +16571,6 @@
 	)
 	(label "nRPIBOOT"
 		(at 50.546 172.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16446,7 +16581,6 @@
 	)
 	(label "VBAT"
 		(at 26.67 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16457,7 +16591,6 @@
 	)
 	(label "GPIO17"
 		(at 144.78 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16468,7 +16601,6 @@
 	)
 	(label "GPIO2"
 		(at 143.51 29.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16479,7 +16611,6 @@
 	)
 	(label "BT_nDis"
 		(at 109.0676 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16490,7 +16621,6 @@
 	)
 	(label "SD_PWR"
 		(at 231.14 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16501,7 +16631,6 @@
 	)
 	(label "GND"
 		(at 22.86 185.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16512,7 +16641,6 @@
 	)
 	(label "TRD0_N"
 		(at 223.52 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16523,7 +16651,6 @@
 	)
 	(label "TRD2_P"
 		(at 99.314 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16534,7 +16661,6 @@
 	)
 	(label "GPIO8"
 		(at 105.41 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16545,7 +16671,6 @@
 	)
 	(label "SD_DAT2"
 		(at 219.71 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16556,7 +16681,6 @@
 	)
 	(label "SD_PWR"
 		(at 207.01 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16567,7 +16691,6 @@
 	)
 	(label "ETH_LEDG"
 		(at 99.314 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16578,7 +16701,6 @@
 	)
 	(label "SYNC_OUT"
 		(at 50.8 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16589,7 +16711,6 @@
 	)
 	(label "TRD3_P"
 		(at 99.314 26.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16600,7 +16721,6 @@
 	)
 	(label "TACHO"
 		(at 132.715 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16611,7 +16731,6 @@
 	)
 	(label "GPIO18"
 		(at 106.68 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16622,7 +16741,6 @@
 	)
 	(label "TRD2_P"
 		(at 241.3 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16632,8 +16750,7 @@
 		(uuid "c01445b2-01ee-4d90-920e-b19c367cb8ac")
 	)
 	(label "GPIO_VREF"
-		(at 334.01 132.08 0)
-		(fields_autoplaced yes)
+		(at 334.01 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16644,7 +16761,6 @@
 	)
 	(label "GPIO20"
 		(at 106.68 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16655,7 +16771,6 @@
 	)
 	(label "TRD0_N"
 		(at 20.32 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16666,7 +16781,6 @@
 	)
 	(label "SD_PWR_ON"
 		(at 99.06 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16677,7 +16791,6 @@
 	)
 	(label "TR1_TAP"
 		(at 242.57 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16688,7 +16801,6 @@
 	)
 	(label "GPIO4"
 		(at 20.32 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16699,7 +16811,6 @@
 	)
 	(label "GPIO5"
 		(at 20.32 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16710,7 +16821,6 @@
 	)
 	(label "PWR_BUT"
 		(at 69.85 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16721,7 +16831,6 @@
 	)
 	(label "GPIO24"
 		(at 106.68 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16732,7 +16841,6 @@
 	)
 	(label "TR3_TAP"
 		(at 218.0844 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16742,8 +16850,7 @@
 		(uuid "ca387788-f856-4dc5-9048-e5d11bc02958")
 	)
 	(label "+1.8v"
-		(at 320.04 135.89 180)
-		(fields_autoplaced yes)
+		(at 323.85 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16754,7 +16861,6 @@
 	)
 	(label "nRPIBOOT"
 		(at 100.33 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16765,7 +16871,6 @@
 	)
 	(label "GPIO9"
 		(at 143.51 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16776,7 +16881,6 @@
 	)
 	(label "GND"
 		(at 22.86 182.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16787,7 +16891,6 @@
 	)
 	(label "GPIO3"
 		(at 20.32 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16798,7 +16901,6 @@
 	)
 	(label "GPIO_VREF"
 		(at 21.59 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16809,7 +16911,6 @@
 	)
 	(label "GPIO14"
 		(at 171.45 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16820,7 +16921,6 @@
 	)
 	(label "GPIO10"
 		(at 144.78 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16831,7 +16931,6 @@
 	)
 	(label "GPIO2"
 		(at 20.32 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16842,7 +16941,6 @@
 	)
 	(label "+5v"
 		(at 166.37 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16853,7 +16951,6 @@
 	)
 	(label "GPIO22"
 		(at 20.32 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16864,7 +16961,6 @@
 	)
 	(label "TRD1_P"
 		(at 20.32 26.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16875,7 +16971,6 @@
 	)
 	(label "GPIO23"
 		(at 171.45 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16886,7 +16981,6 @@
 	)
 	(label "GPIO26"
 		(at 20.32 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16897,7 +16991,6 @@
 	)
 	(label "WL_nDis"
 		(at 109.855 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16908,7 +17001,6 @@
 	)
 	(label "+5v"
 		(at 102.87 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16919,7 +17011,6 @@
 	)
 	(label "TRD2_N"
 		(at 241.3 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16930,7 +17021,6 @@
 	)
 	(label "TACHO"
 		(at 20.32 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16941,7 +17031,6 @@
 	)
 	(label "PWM"
 		(at 132.715 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16952,7 +17041,6 @@
 	)
 	(label "CC2"
 		(at 24.13 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16963,7 +17051,6 @@
 	)
 	(label "GPIO11"
 		(at 144.78 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16974,7 +17061,6 @@
 	)
 	(label "GND"
 		(at 22.86 175.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16985,7 +17071,6 @@
 	)
 	(label "GPIO16"
 		(at 171.45 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16996,7 +17081,6 @@
 	)
 	(label "GPIO27"
 		(at 144.78 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17007,7 +17091,6 @@
 	)
 	(label "SD_CMD"
 		(at 20.32 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17018,7 +17101,6 @@
 	)
 	(label "GPIO3"
 		(at 143.51 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17029,7 +17111,6 @@
 	)
 	(label "TR3_TAP"
 		(at 242.57 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17040,7 +17121,6 @@
 	)
 	(label "GPIO4"
 		(at 143.51 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17051,7 +17131,6 @@
 	)
 	(label "GPIO9"
 		(at 20.32 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17062,7 +17141,6 @@
 	)
 	(label "PWR_BUT"
 		(at 40.64 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17073,7 +17151,6 @@
 	)
 	(label "GPIO25"
 		(at 171.45 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17084,7 +17161,6 @@
 	)
 	(label "GND"
 		(at 22.86 172.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17095,7 +17171,6 @@
 	)
 	(label "TRD0_N"
 		(at 241.3 29.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17106,7 +17181,6 @@
 	)
 	(label "GPIO26"
 		(at 144.78 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17117,7 +17191,6 @@
 	)
 	(label "TRD3_P"
 		(at 241.3 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17128,7 +17201,6 @@
 	)
 	(label "SD_DAT3"
 		(at 107.95 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17139,7 +17211,6 @@
 	)
 	(label "GPIO24"
 		(at 171.45 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17150,7 +17221,6 @@
 	)
 	(label "ETH_LEDY"
 		(at 223.52 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17161,7 +17231,6 @@
 	)
 	(label "TR0_TAP"
 		(at 242.57 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17173,7 +17242,6 @@
 	(hierarchical_label "CAM_GPIO0"
 		(shape output)
 		(at 113.03 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17185,7 +17253,6 @@
 	(hierarchical_label "SDA0"
 		(shape output)
 		(at 21.59 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17197,7 +17264,6 @@
 	(hierarchical_label "CC1"
 		(shape output)
 		(at 21.59 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17209,7 +17275,6 @@
 	(hierarchical_label "+5v"
 		(shape input)
 		(at 132.08 170.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17221,7 +17286,6 @@
 	(hierarchical_label "+3.3v"
 		(shape output)
 		(at 21.59 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17233,7 +17297,6 @@
 	(hierarchical_label "SCL0"
 		(shape output)
 		(at 21.59 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17245,7 +17308,6 @@
 	(hierarchical_label "+5v"
 		(shape input)
 		(at 110.49 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17257,7 +17319,6 @@
 	(hierarchical_label "ID_SD"
 		(shape output)
 		(at 20.32 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17269,7 +17330,6 @@
 	(hierarchical_label "USBOTG"
 		(shape output)
 		(at 54.61 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17281,7 +17341,6 @@
 	(hierarchical_label "CAM_GPIO1"
 		(shape output)
 		(at 27.94 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17293,7 +17352,6 @@
 	(hierarchical_label "ID_SC"
 		(shape output)
 		(at 110.49 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17305,7 +17363,6 @@
 	(hierarchical_label "GPIO_VREF"
 		(shape output)
 		(at 21.59 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17317,7 +17374,6 @@
 	(hierarchical_label "CC2"
 		(shape output)
 		(at 21.59 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17325,102 +17381,6 @@
 			(justify right)
 		)
 		(uuid "e2f203eb-642e-4913-a7d4-cb352ab39f77")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 327.66 135.89 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "08054c5b-e459-4f06-8090-8686126d8a5f")
-		(property "Reference" "R8"
-			(at 326.39 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "nf"
-			(at 331.47 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 327.66 137.668 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 327.66 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 327.66 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "nf"
-			(at 327.66 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "nf"
-			(at 327.66 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "nf"
-			(at 327.66 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "747edbd7-57de-4cde-9913-5edf73ab09d4")
-		)
-		(pin "2"
-			(uuid "67ebf21c-ee5e-4a91-8f08-7a0fb08499ee")
-		)
-		(instances
-			(project "duet_pi"
-				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -17431,7 +17391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b1a308e-9a53-4a3b-80b2-09830f358e51")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR014"
 			(at 34.29 160.02 0)
 			(effects
 				(font
@@ -17481,7 +17441,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "#PWR022")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -17496,7 +17456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0be35b10-8896-42ce-84de-06ec45794df4")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 203.2 21.1582 0)
 			(effects
 				(font
@@ -17626,7 +17586,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "U4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -17641,7 +17601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c8f91fd-6c8c-41c4-8cf2-9de9c1bbfb2b")
-		(property "Reference" "R11"
+		(property "Reference" "R4"
 			(at 228.6 87.63 90)
 			(effects
 				(font
@@ -17657,7 +17617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 228.6 80.772 90)
 			(effects
 				(font
@@ -17747,7 +17707,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "R11")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -17895,7 +17855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "129dd9ee-bab6-44dd-864c-4cd1ce2dc660")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR015"
 			(at 97.79 160.02 0)
 			(effects
 				(font
@@ -17945,7 +17905,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "#PWR024")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -18025,7 +17985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1db377eb-42ec-4031-b22d-c1eb90fb3b69")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR07"
 			(at 162.56 82.55 0)
 			(effects
 				(font
@@ -18075,7 +18035,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "#PWR029")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -18213,7 +18173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a85fe79-8676-409d-b928-a4943e18063d")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR012"
 			(at 207.01 138.43 0)
 			(effects
 				(font
@@ -18263,7 +18223,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "#PWR032")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -18278,7 +18238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ee493e2-5252-47e4-9ab6-97735ea69cd4")
-		(property "Reference" "R9"
+		(property "Reference" "R5"
 			(at 189.738 138.5316 0)
 			(effects
 				(font
@@ -18296,7 +18256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 186.182 139.7 90)
 			(effects
 				(font
@@ -18386,7 +18346,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "R9")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -18401,7 +18361,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f894d19-1a79-4499-8ccb-55e0df1ea827")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR018"
 			(at 107.95 187.96 0)
 			(effects
 				(font
@@ -18451,130 +18411,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 327.66 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "392249ad-7a84-45a6-96eb-e1054d00c4f0")
-		(property "Reference" "R7"
-			(at 326.39 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 331.47 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 327.66 133.858 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 327.66 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 327.66 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 327.66 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "9233750"
-			(at 327.66 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Rohm"
-			(at 327.66 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "MCR10EZPJ000"
-			(at 327.66 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 0R M2012 5% "
-			(at 327.66 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "121629591"
-			(at 327.66 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d637498-2dc2-482b-abd4-db1eaf553130")
-		)
-		(pin "2"
-			(uuid "849a321f-0a21-4492-a811-9df03b640881")
-		)
-		(instances
-			(project "duet_pi"
-				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "R7")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -18589,7 +18426,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60a0a3a1-42a6-4354-983d-66073ebda5c7")
-		(property "Reference" "U7"
+		(property "Reference" "U3"
 			(at 246.38 19.05 0)
 			(effects
 				(font
@@ -18742,7 +18579,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "U7")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -18757,7 +18594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67c95dd7-6ea6-41d0-8dcb-d3b04f1b7037")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR06"
 			(at 147.32 82.55 0)
 			(effects
 				(font
@@ -18807,7 +18644,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "#PWR027")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -18822,7 +18659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70afa95f-4a27-447b-98ed-2f2c4c2e3e16")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR019"
 			(at 76.2 189.23 0)
 			(effects
 				(font
@@ -18872,7 +18709,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "#PWR023")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -18887,7 +18724,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "771f27bf-9a53-499b-bd6b-da02089e9bf8")
-		(property "Reference" "J13"
+		(property "Reference" "J5"
 			(at 250.19 107.5182 0)
 			(effects
 				(font
@@ -19020,7 +18857,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "J13")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -19035,7 +18872,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bb4a34b-660d-4133-80a1-bdc04ed47d36")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR09"
 			(at 242.57 99.06 0)
 			(effects
 				(font
@@ -19085,7 +18922,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "#PWR035")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -19100,7 +18937,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f2c0026-32da-42af-895c-004b3babc868")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR010"
 			(at 147.32 134.62 0)
 			(effects
 				(font
@@ -19150,7 +18987,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "#PWR053")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -19313,7 +19150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8145029d-bc0a-4297-94b0-8e308c423e39")
-		(property "Reference" "J11"
+		(property "Reference" "J2"
 			(at 162.56 24.13 0)
 			(effects
 				(font
@@ -19533,7 +19370,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "J11")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -20252,7 +20089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "960ec5c2-69ed-4df4-bb8d-8ab100e7bdbe")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR017"
 			(at 180.34 163.83 0)
 			(effects
 				(font
@@ -20302,7 +20139,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "#PWR028")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -20318,7 +20155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "961f5b10-94ee-496a-88d5-7ab7f23b9441")
-		(property "Reference" "J16"
+		(property "Reference" "J4"
 			(at 162.56 92.71 0)
 			(effects
 				(font
@@ -20496,7 +20333,80 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "J16")
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 327.66 134.62 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "99265a37-dfc3-436e-bb68-8cbbaaa6897d")
+		(property "Reference" "JP1"
+			(at 325.12 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_3_Bridged12"
+			(at 353.822 129.794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
+			(at 327.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 327.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 327.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e1423534-8e8d-463f-a2c7-69505ddc7c1d")
+		)
+		(pin "2"
+			(uuid "bf3cf8b3-e3d2-4ae1-8eee-0030e9324110")
+		)
+		(pin "1"
+			(uuid "d5d80f35-b24c-4523-936e-d7d8262ed87a")
+		)
+		(instances
+			(project ""
+				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -20511,7 +20421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f67d3b1-0f64-40db-98f3-2d03deeabb8f")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR016"
 			(at 231.14 162.56 0)
 			(effects
 				(font
@@ -20561,7 +20471,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "#PWR034")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -20576,7 +20486,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a019e666-fdf3-4193-99ef-2373d8ce01d2")
-		(property "Reference" "R10"
+		(property "Reference" "R3"
 			(at 228.6 72.2122 90)
 			(effects
 				(font
@@ -20592,7 +20502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 228.6 75.692 90)
 			(effects
 				(font
@@ -20682,7 +20592,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "R10")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -20808,7 +20718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8533bef-d116-44cf-8d0d-744a8d25ee6e")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR020"
 			(at 142.24 189.23 0)
 			(effects
 				(font
@@ -20858,7 +20768,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "#PWR026")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -20984,7 +20894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3e54baf-a7bb-4168-8f13-a4ac9447f672")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 247.65 146.939 0)
 			(effects
 				(font
@@ -21099,7 +21009,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -21114,7 +21024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9918a81-5591-4958-9acc-cd57fc8bd504")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 203.2 52.9082 0)
 			(effects
 				(font
@@ -21244,7 +21154,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -21361,10 +21271,10 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "bb666334-d99b-4b38-a2b1-e05e80063dac")
-		(property "Reference" "J12"
+		(property "Reference" "J3"
 			(at 203.2 87.1982 0)
 			(effects
 				(font
@@ -21476,7 +21386,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "J12")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -21491,7 +21401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf5bd476-d613-4b17-b8fa-e8a7d7c4e68b")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 181.864 147.32 0)
 			(effects
 				(font
@@ -21599,7 +21509,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -21614,7 +21524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4bd58d1-876f-44a1-a1a7-04e8ca511f1f")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR08"
 			(at 203.2 83.82 0)
 			(effects
 				(font
@@ -21664,7 +21574,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "#PWR031")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -21679,7 +21589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8fe9be4-a419-4908-90a1-208492810263")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR04"
 			(at 203.2 52.07 0)
 			(effects
 				(font
@@ -21729,7 +21639,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "#PWR030")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -21744,7 +21654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd35b923-b9b4-4f8c-89c8-5cecae9fe6cc")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR011"
 			(at 162.56 134.62 0)
 			(effects
 				(font
@@ -21794,7 +21704,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "#PWR054")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -21809,7 +21719,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1051478-845f-4fda-aa80-9e396fbdc620")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR013"
 			(at 274.32 152.4 0)
 			(effects
 				(font
@@ -21859,7 +21769,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "#PWR036")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -21874,7 +21784,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "dcfed89b-e23c-41a9-82e1-f4c36ac35d38")
-		(property "Reference" "J9"
+		(property "Reference" "J6"
 			(at 117.2972 127.8382 0)
 			(effects
 				(font
@@ -21974,7 +21884,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "J9")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -22121,7 +22031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e926e9b9-b7fe-4ecd-8222-916c00506297")
-		(property "Reference" "R6"
+		(property "Reference" "R2"
 			(at 114.808 42.0116 0)
 			(effects
 				(font
@@ -22139,7 +22049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 111.252 43.18 90)
 			(effects
 				(font
@@ -22229,7 +22139,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "R6")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -22244,7 +22154,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb13314f-6ea0-42d2-a331-0ad4b1eed719")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR05"
 			(at 224.79 54.61 0)
 			(effects
 				(font
@@ -22294,7 +22204,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "#PWR033")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -22309,7 +22219,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0daa0ff-e3e8-4c37-8e6d-a602f389db10")
-		(property "Reference" "J10"
+		(property "Reference" "J7"
 			(at 146.685 180.975 0)
 			(effects
 				(font
@@ -22318,7 +22228,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST_SHBM04B-SRSS-TB"
+		(property "Value" ""
 			(at 146.05 183.515 0)
 			(effects
 				(font
@@ -22327,7 +22237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
 			(at 148.59 172.72 0)
 			(effects
 				(font
@@ -22363,7 +22273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "SHBM04B-SRSS-TB"
+		(property "Field5" ""
 			(at 148.59 172.72 0)
 			(effects
 				(font
@@ -22372,7 +22282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "SHBM04B-SRSS-TB"
+		(property "Field6" ""
 			(at 148.59 172.72 0)
 			(effects
 				(font
@@ -22417,7 +22327,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "J10")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -22432,7 +22342,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3a8bdd8-bf16-4b87-a594-b8f54864c0d9")
-		(property "Reference" "C9"
+		(property "Reference" "C4"
 			(at 209.931 123.2916 0)
 			(effects
 				(font
@@ -22549,7 +22459,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "C9")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -22564,7 +22474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcdc38b0-1533-4c2c-a817-8d04bef480ae")
-		(property "Reference" "C10"
+		(property "Reference" "C3"
 			(at 227.711 43.2816 0)
 			(effects
 				(font
@@ -22681,7 +22591,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/e3e62561-d6ae-45a8-b943-e1248579fa09"
-					(reference "C10")
+					(reference "C3")
 					(unit 1)
 				)
 			)

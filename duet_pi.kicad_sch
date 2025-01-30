@@ -1567,7 +1567,6 @@
 	)
 	(label "CC1"
 		(at 121.92 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1578,7 +1577,6 @@
 	)
 	(label "+5v"
 		(at 25.4 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1589,7 +1587,6 @@
 	)
 	(label "USB2_P"
 		(at 77.47 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1600,7 +1597,6 @@
 	)
 	(label "+5v"
 		(at 74.93 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1611,7 +1607,6 @@
 	)
 	(label "CC2"
 		(at 121.92 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1622,7 +1617,6 @@
 	)
 	(label "CC1"
 		(at 67.31 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1633,7 +1627,6 @@
 	)
 	(label "+3.3v"
 		(at 122.555 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1644,7 +1637,6 @@
 	)
 	(label "USB2_N"
 		(at 77.47 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1655,7 +1647,6 @@
 	)
 	(label "+5v"
 		(at 191.77 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1666,7 +1657,6 @@
 	)
 	(label "+5v"
 		(at 248.92 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1677,7 +1667,6 @@
 	)
 	(label "+5v"
 		(at 122.555 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1688,7 +1677,6 @@
 	)
 	(label "CC2"
 		(at 67.31 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1699,7 +1687,6 @@
 	)
 	(label "+5v"
 		(at 67.31 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1710,7 +1697,6 @@
 	)
 	(label "+3.3v"
 		(at 191.77 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1728,7 +1714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f4024f5-a0bd-4252-a84e-c5849d67ac73")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 45.72 96.52 0)
 			(effects
 				(font
@@ -1778,7 +1764,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1837,34 +1823,16 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "USBF31-0171"
-			(at 49.53 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "USBF31-0171"
-			(at 49.53 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "MTCONN"
-			(at 49.53 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Description" "USBC USB2 data and power connector"
+			(at 49.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "2073-USB4105-GF-ACT-ND"
 			(at 49.53 66.04 0)
 			(effects
 				(font
@@ -1942,7 +1910,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e857bff-faae-4af0-9646-777384a0b9dc")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 90.17 64.77 0)
 			(effects
 				(font
@@ -1992,7 +1960,7 @@
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2090,7 +2058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 88.392 54.61 90)
 			(effects
 				(font
