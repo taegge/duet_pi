@@ -645,7 +645,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "export",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

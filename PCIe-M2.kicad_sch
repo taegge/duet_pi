@@ -6652,6 +6652,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "AP3441SHE-7BDICT-ND"
+			(at 66.04 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "d267a81e-7e43-4535-89fa-af26f37393df")
 		)
@@ -6974,6 +6983,15 @@
 			)
 		)
 		(property "Part Description" "32KHz Xtal oscilator"
+			(at 208.28 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "535-ASEK-32.768KHZ-L-R-TCT-ND"
 			(at 208.28 135.89 0)
 			(effects
 				(font

@@ -7167,6 +7167,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "5503-TPP60508L1-DF9R-SCT-ND"
+			(at 193.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "2a07a9f1-271c-4637-8885-da95354886cd")
 		)
@@ -7944,7 +7953,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" ""
+		(property "digikey" "1276-2525-1-ND"
 			(at 184.15 151.13 0)
 			(effects
 				(font
@@ -10514,7 +10523,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" ""
+		(property "digikey" "1276-2525-1-ND"
 			(at 181.61 81.28 0)
 			(effects
 				(font
@@ -11032,6 +11041,15 @@
 		)
 		(property "Description" ""
 			(at 191.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "5503-TPP60508L1-DF9R-SCT-ND"
+			(at 190.5 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)

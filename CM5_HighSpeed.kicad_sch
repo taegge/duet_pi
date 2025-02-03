@@ -12325,6 +12325,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "31-AP22653W6-7CT-ND"
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cdfa7932-63be-4376-b795-5b324c5be6ed")
 		)
@@ -14471,6 +14480,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "1028-RT9742SNGVCT-ND"
+			(at 214.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "03f425d2-95a0-459d-8fe9-eaed8eb53894")
 		)
@@ -15652,7 +15670,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "690-019-298-412"
+		(property "Value" "WM1282DKR-ND"
 			(at 262.89 156.21 0)
 			(effects
 				(font

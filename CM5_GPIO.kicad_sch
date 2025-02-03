@@ -17535,6 +17535,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "296-28063-1-ND"
+			(at 203.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34447e0b-a4cf-427c-abcd-ac00101e1b28")
 		)
@@ -18122,7 +18131,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "	\n36-3034-ND"
+		(property "digikey" "36-3034-ND"
 			(at 107.95 179.07 0)
 			(effects
 				(font
@@ -20973,6 +20982,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "1028-1436-1-ND"
+			(at 248.92 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c60edde3-9cfd-4ccd-aa53-79ac23e5c4e9")
 		)
@@ -21103,6 +21121,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "296-28063-1-ND"
+			(at 203.2 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74fca946-aeab-42e0-8a23-55317c843e70")
 		)
@@ -21224,6 +21251,15 @@
 			)
 		)
 		(property "Part Description" "Right angle through hole Tact switch"
+			(at 76.2 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "PTS645VL58-2 LFS"
 			(at 76.2 177.8 0)
 			(effects
 				(font
@@ -21465,6 +21501,15 @@
 			)
 		)
 		(property "Part Description" "Buffer, Non-Inverting 1 Element 1 Bit per Element Open Drain Output SOT-353"
+			(at 180.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "74LVC1G07SE-7DICT-ND"
 			(at 180.34 149.86 0)
 			(effects
 				(font
