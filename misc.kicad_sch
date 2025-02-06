@@ -858,6 +858,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_02x13_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
@@ -7644,7 +7746,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" ""
+		(property "digikey" "478-KAF21KR72A104MUCT-ND"
 			(at 176.53 40.64 0)
 			(effects
 				(font
@@ -7894,6 +7996,73 @@
 			(project ""
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/0b5a332f-b32e-4359-8448-44e694f7fb70"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 270.51 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a65a2e5-5352-4d51-b8af-bf133aab1a4f")
+		(property "Reference" "TP5"
+			(at 273.05 116.0779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 273.05 118.6179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 275.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 270.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cf42600-b66d-43d8-876e-64cfea018c30")
+		)
+		(instances
+			(project ""
+				(path "/c80e2680-7312-4906-8194-724a8268cfde/0b5a332f-b32e-4359-8448-44e694f7fb70"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -8449,7 +8618,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" ""
+		(property "digikey" "478-KAF21KR72A104MUCT-ND"
 			(at 179.07 109.22 0)
 			(effects
 				(font
@@ -9187,6 +9356,73 @@
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/0b5a332f-b32e-4359-8448-44e694f7fb70"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 266.7 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81876863-5537-463e-bebb-4654e60a59e9")
+		(property "Reference" "TP4"
+			(at 269.24 46.2279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 269.24 48.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 271.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 266.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dbfa51e-d8b4-496a-9bc5-23401352e3fc")
+		)
+		(instances
+			(project ""
+				(path "/c80e2680-7312-4906-8194-724a8268cfde/0b5a332f-b32e-4359-8448-44e694f7fb70"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -10313,7 +10549,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" ""
+		(property "digikey" "311-1107-1-ND"
 			(at 194.31 77.47 0)
 			(effects
 				(font
@@ -10830,7 +11066,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" ""
+		(property "digikey" "311-1107-1-ND"
 			(at 196.85 147.32 0)
 			(effects
 				(font

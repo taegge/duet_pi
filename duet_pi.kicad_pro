@@ -59,11 +59,15 @@
         }
       ],
       "drc_exclusions": [
+        "clearance|40030000|64760000|76c7e2aa-f70a-471a-808d-2a18a8eb9d4d|b07ba199-141e-4a72-9ffe-4a95e9650ea4",
+        "clearance|40030000|78350000|098d67d7-f413-452a-a079-d92db0732aa1|98f94f75-ff19-47c1-b217-b3860fa91453",
+        "clearance|41190000|77880000|bac837a3-89d1-4fba-86cf-e0229dc6e75e|98f94f75-ff19-47c1-b217-b3860fa91453",
         "hole_clearance|61140000|168375000|90be40ae-ff83-493a-bd6e-5533a9706a17|2a064e5e-f235-4229-a011-76b110713e61",
         "hole_clearance|61140000|168375000|90be40ae-ff83-493a-bd6e-5533a9706a17|b502826a-88d3-4d65-83a7-8343e3c3568e",
         "hole_clearance|67240000|168375000|9febe230-ffaa-4650-920a-5591bd4acd71|62107193-80ab-452c-8537-926fa844df01",
         "hole_clearance|67240000|168375000|9febe230-ffaa-4650-920a-5591bd4acd71|a5a3ab7c-ec0d-49cc-812f-a3f7b2c75cee",
         "lib_footprint_mismatch|154710000|138760000|1b5116b7-2de9-4c3e-8172-0679be16dfbe|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|68430000|160440000|368fb2da-b9ba-4cf5-94c4-0d9deb812955|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|112180000|126043399|34049e0f-34e0-4b0c-8841-dc8e1725452f|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
@@ -138,7 +142,7 @@
         "min_track_width": 0.11,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -580,7 +584,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 1.0,
+        "clearance": 0.8,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.13,
@@ -619,23 +623,23 @@
         "pattern": "/CM5_HighSpeed/HDMI*_CK*"
       },
       {
-        "netclass": "Default",
+        "netclass": "POE TAPS",
         "pattern": "/CM5_GPIO ( Ethernet, GPIO, SDCARD)/TR*_TAP"
       },
       {
-        "netclass": "Default",
+        "netclass": "100R",
         "pattern": "/CM5_GPIO ( Ethernet, GPIO, SDCARD)/TRD*"
       },
       {
-        "netclass": "Default",
+        "netclass": "90R",
         "pattern": "/CM5_HighSpeed/PCIE_*X_*"
       },
       {
-        "netclass": "Default",
+        "netclass": "90R",
         "pattern": "/CM5_HighSpeed/PCIE_*CLK_*"
       },
       {
-        "netclass": "Default",
+        "netclass": "90R",
         "pattern": "/USB2*"
       }
     ]
