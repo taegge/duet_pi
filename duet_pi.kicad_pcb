@@ -42760,6 +42760,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "Designed by Tim Eggebroten\nReleased under CERN-OHL-S v2 license terms.\nSource available at https://github.com/taegge"
+		(at 152.67 83.49 270)
+		(layer "B.SilkS")
+		(uuid "a29692ef-a4ea-4b21-bc96-ad92b46f500c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "Tach"
 		(at 65.59 101.55 -0)
 		(layer "B.SilkS")
