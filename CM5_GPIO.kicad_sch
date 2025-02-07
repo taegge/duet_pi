@@ -17781,6 +17781,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "311-470CRCT-ND"
+			(at 228.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a6ccbf76-1330-4e9f-8f7f-1f6036978859")
 		)
@@ -18420,6 +18429,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "311-1.00KCRCT-ND"
+			(at 187.96 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8128b5d-b0de-448a-8c8e-640c7e595c91")
 		)
@@ -18592,6 +18610,15 @@
 			)
 		)
 		(property "Part Description" "4 pin vertical 1mm pitch connector"
+			(at 119.38 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "455-BM04B-SRSS-TBCT-ND"
 			(at 119.38 177.8 0)
 			(effects
 				(font
@@ -18778,6 +18805,15 @@
 			)
 		)
 		(property "Field5" "TRJG0926HENL"
+			(at 264.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "535-14155-ND"
 			(at 264.16 95.25 0)
 			(effects
 				(font
@@ -19369,6 +19405,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "2057-PH2-14-UA-ND"
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29be0ece-5467-4879-b4a3-cc5f0c41e7eb")
 		)
@@ -19742,6 +19787,15 @@
 			)
 		)
 		(property "Part Description" "	100 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold"
+			(at 68.58 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "2x 10164227-1001A1RLF"
 			(at 68.58 80.01 0)
 			(effects
 				(font
@@ -20531,6 +20585,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "SBH11-PBPC-D13-ST-BK"
+			(at 153.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f4ff87a-a54f-461e-bfdc-8ed5ee8fc0d0")
 		)
@@ -20854,6 +20917,15 @@
 			)
 		)
 		(property "Part Description" "Resistor 470R M1005 1% 63mW"
+			(at 228.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "311-470CRCT-ND"
 			(at 228.6 77.47 0)
 			(effects
 				(font
@@ -22580,6 +22652,15 @@
 			)
 		)
 		(property "Field8" "125049511"
+			(at 113.03 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "311-1.00KCRCT-ND"
 			(at 113.03 43.18 0)
 			(effects
 				(font

@@ -6388,6 +6388,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "36-24939CT-ND"
+			(at 20.32 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/0b5a332f-b32e-4359-8448-44e694f7fb70"
@@ -9785,7 +9794,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "13-RC0805FR-0710R5LDKR-ND"
+		(property "digikey" "311-10.5KCRCT-ND"
 			(at 231.14 151.13 0)
 			(effects
 				(font
@@ -11673,6 +11682,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "36-24939CT-ND"
+			(at 20.32 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/0b5a332f-b32e-4359-8448-44e694f7fb70"
@@ -11738,6 +11756,15 @@
 			)
 		)
 		(property "Part Description" ""
+			(at 20.32 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "36-24939CT-ND"
 			(at 20.32 190.5 0)
 			(effects
 				(font
@@ -12508,6 +12535,15 @@
 			)
 		)
 		(property "Part Description" ""
+			(at 20.32 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "36-24939CT-ND"
 			(at 20.32 180.34 0)
 			(effects
 				(font

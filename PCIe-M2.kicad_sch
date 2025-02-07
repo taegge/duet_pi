@@ -4960,6 +4960,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "118-SRP5030CC-2R2MCT-ND"
+			(at 93.98 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14f2b2ab-15cd-40ae-92a1-cb54c1a0c4fa")
 		)
@@ -5371,6 +5380,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "311-2.20KCRCT-ND"
+			(at 111.76 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aaede1ca-6ab7-4fd4-9fa3-e0b6759dfe00")
 		)
@@ -5477,6 +5495,15 @@
 			)
 		)
 		(property "Part Description" "Resistor 10K M1005 1% 63mW"
+			(at 111.76 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "13-RC0805FR-1310KLCT-ND"
 			(at 111.76 177.8 0)
 			(effects
 				(font
@@ -6272,6 +6299,15 @@
 			)
 		)
 		(property "Field8" "125049511"
+			(at 194.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "311-1.00KCRCT-ND"
 			(at 194.31 88.9 0)
 			(effects
 				(font
@@ -7129,6 +7165,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "311-100KCRCT-ND"
+			(at 81.28 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9363f65-f204-460d-a5dc-70fa6a23a7aa")
 		)
@@ -7226,6 +7271,15 @@
 			)
 		)
 		(property "Part Description" "M.2 M Key connector"
+			(at 153.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "609-6590CT-ND"
 			(at 153.67 86.36 0)
 			(effects
 				(font

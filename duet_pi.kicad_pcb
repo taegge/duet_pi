@@ -537,6 +537,19 @@
 				)
 			)
 		)
+		(property "digikey" "311-2.20KCRCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03d1f914-9c94-43ba-a7f3-ee5ffd628661")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b17c54df-adeb-4eee-8bac-db7860d2fd74/82f902d8-2112-418e-99f1-f6c1be6b0dde")
 		(sheetname "CM5_HighSpeed")
@@ -1991,6 +2004,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5be6241e-9973-42eb-a43a-eb6ecd15ed1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey" "2x 10164227-1001A1RLF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "079ddba9-5c94-464b-8e76-45f250fbb0bc")
 			(effects
 				(font
 					(size 1 1)
@@ -5396,6 +5422,19 @@
 				)
 			)
 		)
+		(property "digikey" "311-1.00KCRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "056385ce-0b50-4fec-adec-ab66f72d6d93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d7b8ce31-b426-4b84-8730-2ca9f82012ca/7482f216-0e79-4d97-9ba7-54ce12d3d06a")
 		(sheetname "PCIe-M2")
@@ -5680,6 +5719,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c51db57d-2b7f-4274-8da2-d22e894a6e3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey" "311-1.00KCRCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32895c56-ef20-466a-a67b-6f987158a085")
 			(effects
 				(font
 					(size 1 1)
@@ -6529,6 +6581,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e16de784-e2d7-4b40-9572-6f98f4e89604")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey" "2057-PH2-14-UA-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d6b3591-818c-419c-9a7a-7710e5bf6c1d")
 			(effects
 				(font
 					(size 1 1)
@@ -8568,6 +8633,19 @@
 				)
 			)
 		)
+		(property "digikey" "380-1411-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "200708d7-5741-4e51-a1f0-8af2c7a6e943")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b17c54df-adeb-4eee-8bac-db7860d2fd74/45326187-3b17-42e3-9c54-1edb3110cd54")
 		(sheetname "CM5_HighSpeed")
 		(sheetfile "CM5_HighSpeed.kicad_sch")
@@ -9855,6 +9933,19 @@
 				)
 			)
 		)
+		(property "digikey" "311-2.20KCRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd3c7fe4-3bf0-4e5e-9365-2a86d82b2855")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b17c54df-adeb-4eee-8bac-db7860d2fd74/6cbd788d-a542-4f62-8253-658b1a244f17")
 		(sheetname "CM5_HighSpeed")
@@ -11043,6 +11134,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "086be490-cd7f-4998-a6a4-9cda7f612cd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey" "311-15.0KCRCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "456e8750-2c9a-470a-a804-d24ceaa545ad")
 			(effects
 				(font
 					(size 1 1)
@@ -14816,6 +14920,19 @@
 				)
 			)
 		)
+		(property "digikey" "311-1.00KCRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9938f0d3-3f80-4074-9e97-a4596d406f1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e3e62561-d6ae-45a8-b943-e1248579fa09/2ee493e2-5252-47e4-9ab6-97735ea69cd4")
 		(sheetname "CM5_GPIO ( Ethernet, GPIO, SDCARD)")
@@ -15850,6 +15967,19 @@
 				)
 			)
 		)
+		(property "digikey" "311-2.20KCRCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc294e66-3926-4c3a-adcb-27b3bcbeee01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d7b8ce31-b426-4b84-8730-2ca9f82012ca/39ce7d2e-8408-4160-8a48-1c8a2cd0bd82")
 		(sheetname "PCIe-M2")
@@ -16495,6 +16625,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dcd3099a-ae70-434e-9886-caeeae4a97bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey" "118-SRP5030CC-2R2MCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a56bd539-4428-4312-9f48-6e44232d0e95")
 			(effects
 				(font
 					(size 1 1)
@@ -20035,6 +20178,19 @@
 				)
 			)
 		)
+		(property "digikey" "311-470CRCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ffc774a-2576-45f4-aaa3-31837731d82a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e3e62561-d6ae-45a8-b943-e1248579fa09/0c8f91fd-6c8c-41c4-8cf2-9de9c1bbfb2b")
 		(sheetname "CM5_GPIO ( Ethernet, GPIO, SDCARD)")
@@ -22757,6 +22913,19 @@
 				)
 			)
 		)
+		(property "digikey" "311-470CRCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "810987e7-eafa-462c-ab87-eb9ac2fb916f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e3e62561-d6ae-45a8-b943-e1248579fa09/a019e666-fdf3-4193-99ef-2373d8ce01d2")
 		(sheetname "CM5_GPIO ( Ethernet, GPIO, SDCARD)")
@@ -23677,7 +23846,7 @@
 				)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Part Description" "HDMI Connector, Right Angle, 19 Contacts, Receptacle, Surface Mount, Surface Mount Right Angle"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23690,64 +23859,12 @@
 				)
 			)
 		)
-		(property "Field5" "2614936"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1ed2215c-1cb4-4bef-a85a-3f33b8940aba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field6" "690-019-298-412"
-			(at 0 0 90)
+		(property "digikey" "137-RAHHD19CT-ND"
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cee13de4-81ea-43de-850a-f81105cd2284")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field7" "EDAC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5641d1b8-3f55-4688-b064-1e5d92aeb81d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Description" "HDMI Connector, Right Angle, 19 Contacts, Receptacle, Surface Mount, Surface Mount Right Angle"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "475d96a5-e7f3-4700-b05e-f8cbfce86e96")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field8" "UCON00802"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3fcfdd94-8a2a-4e4e-ae54-c11faea13403")
 			(effects
 				(font
 					(size 1 1)
@@ -25345,6 +25462,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "74e6718e-d5a0-4a62-93d7-516971cfdeb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey" "311-2.20KCRCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdf40f71-4ec2-47e0-9e2d-9838b5fb7808")
 			(effects
 				(font
 					(size 1 1)
@@ -30641,6 +30771,19 @@
 				)
 			)
 		)
+		(property "digikey" "311-100KCRCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc126b2c-ee58-42b2-80a6-89e2aedd9488")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d7b8ce31-b426-4b84-8730-2ca9f82012ca/a409a6fc-d673-49b4-a743-71be5a86c734")
 		(sheetname "PCIe-M2")
@@ -30912,6 +31055,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c1fb2626-1293-4f80-8b38-b045215344fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey" "455-BM04B-SRSS-TBCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a8d8f78-9fce-4a29-b5d9-4153445f2afa")
 			(effects
 				(font
 					(size 1 1)
@@ -32082,6 +32238,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "34e3ad73-d8fc-4b29-a38a-66df8d939b0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey" "535-14155-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "593a9f94-e111-4846-9951-7a2019f7e66a")
 			(effects
 				(font
 					(size 1 1)
@@ -34140,6 +34309,19 @@
 				)
 			)
 		)
+		(property "digikey" "13-RC0805FR-1310KLCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a82a2557-b30b-4dea-86ff-e4291403ac79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d7b8ce31-b426-4b84-8730-2ca9f82012ca/3ceed49f-1a5c-4c9a-8645-5a10ecf58279")
 		(sheetname "PCIe-M2")
@@ -35280,6 +35462,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "345e8582-7982-4502-8ae5-7d5ba68901d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey" "311-2.20KCRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f57f0ec-7f78-40cd-a6aa-a7af73d6c95d")
 			(effects
 				(font
 					(size 1 1)
@@ -37575,6 +37770,20 @@
 				(justify mirror)
 			)
 		)
+		(property "digikey" "609-6590CT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "33945173-f417-461b-936b-8079d9c1d85b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "*M*2*M*")
 		(path "/d7b8ce31-b426-4b84-8730-2ca9f82012ca/b3be8761-c9d4-48a8-8dcb-e003151e2da2")
 		(sheetname "PCIe-M2")
@@ -39495,6 +39704,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cd7c25c0-f14d-4289-bb9b-ab83a441aeb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "digikey" "SBH11-PBPC-D13-ST-BK"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "54f3dc7c-8394-4b4a-a225-ee0084d3a6fd")
 			(effects
 				(font
 					(size 1 1)

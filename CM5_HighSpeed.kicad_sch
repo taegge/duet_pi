@@ -12713,6 +12713,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "380-1411-ND"
+			(at 209.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "095fe6d7-a830-4d4e-8e17-06fdf14ae94a")
 		)
@@ -12879,6 +12888,15 @@
 			)
 		)
 		(property "Field8" ""
+			(at 208.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "311-2.20KCRCT-ND"
 			(at 208.28 111.76 0)
 			(effects
 				(font
@@ -13529,6 +13547,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "311-2.20KCRCT-ND"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e338034a-5ee4-4e80-92a2-73157b750b6f")
 		)
@@ -13973,6 +14000,15 @@
 			)
 		)
 		(property "Field8" ""
+			(at 139.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "311-2.20KCRCT-ND"
 			(at 139.7 138.43 0)
 			(effects
 				(font
@@ -14734,6 +14770,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "2x 10164227-1001A1RLF"
+			(at -69.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "572b3416-10dc-424b-a692-7c4d190a122a")
 		)
@@ -15451,6 +15496,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "311-15.0KCRCT-ND"
+			(at 80.01 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c4923ce-febd-4582-8e1b-1de2d39359ef")
 		)
@@ -15520,42 +15574,6 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
-			(at 265.43 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "2614936"
-			(at 265.43 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "690-019-298-412"
-			(at 265.43 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "EDAC"
-			(at 265.43 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Description" "HDMI Connector, Right Angle, 19 Contacts, Receptacle, Surface Mount, Surface Mount Right Angle"
 			(at 265.43 52.07 0)
 			(effects
@@ -15565,7 +15583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "UCON00802"
+		(property "digikey" "137-RAHHD19CT-ND"
 			(at 265.43 52.07 0)
 			(effects
 				(font

@@ -2398,6 +2398,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "311-2.20KCRCT-ND"
+			(at 90.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "feea9aed-a0c8-4d6c-93f5-98caf3b4c4ed")
 		)
