@@ -1,3 +1,11 @@
+
+# Board Layout
+
+![image](pcb_front.jpg)
+![image](pcb_back.jpg)
+
+# PCB Fabrication
+
 board stackup is jlcpcb 
 JLC041611-3313
 impedance control
