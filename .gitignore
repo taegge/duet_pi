@@ -1,4 +1,4 @@
-duet_pi-backups/*
+duet_pi/duet_pi-backups/*
 .ipynb_checkpoints/*
-export/*
+duet_pi/export/*
 duet_pi.kicad_pcb.zip
