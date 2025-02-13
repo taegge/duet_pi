@@ -1648,7 +1648,7 @@
 				)
 			)
 		)
-		(property "digikey" "5399-SS310CT-ND "
+		(property "digikey" "5399-SS510CT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10611,7 +10611,7 @@
 				)
 			)
 		)
-		(property "digikey" "13-RC0805FR-0710R5LDKR-ND"
+		(property "digikey" "311-10.5KCRCT-ND"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28581,7 +28581,7 @@
 				)
 			)
 		)
-		(property "digikey" "5399-SS310CT-ND "
+		(property "digikey" "5399-SS510CT-ND"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")

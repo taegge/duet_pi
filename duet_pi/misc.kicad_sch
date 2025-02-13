@@ -10334,7 +10334,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "5399-SS310CT-ND "
+		(property "digikey" "5399-SS510CT-ND"
 			(at 226.06 133.35 90)
 			(effects
 				(font
@@ -10479,7 +10479,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "5399-SS310CT-ND "
+		(property "digikey" "5399-SS510CT-ND"
 			(at 223.52 63.5 90)
 			(effects
 				(font
