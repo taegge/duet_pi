@@ -18813,15 +18813,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "535-14155-ND"
-			(at 264.16 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7d77d135-3bbb-4567-958c-04ff7e82575c")
 		)
@@ -22794,7 +22785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 pin fan header (molex kk254)"
 			(at 168.91 177.8 0)
 			(effects
 				(font
@@ -22803,43 +22794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
-			(at 168.91 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 168.91 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 168.91 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "JST"
-			(at 168.91 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "4 pin vertical 1mm pitch connector"
+		(property "digikey" "WM4330-ND"
 			(at 168.91 177.8 0)
 			(effects
 				(font

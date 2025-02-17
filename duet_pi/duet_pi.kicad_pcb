@@ -21235,7 +21235,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 pin fan header (molex kk254)"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21248,64 +21248,12 @@
 				)
 			)
 		)
-		(property "Part Description" "4 pin vertical 1mm pitch connector"
+		(property "digikey" "WM4330-ND"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0377e2d-9fe6-4b34-969c-506123bf5fda")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b2576859-c8bc-4fdc-8e32-dc791dd188ce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1bf1b89c-e287-45b0-b162-cb43f8f036b8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9b1f9a89-0bc4-427e-a540-f691ffae9151")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field7" "JST"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0f462566-ef6e-4191-8aec-5ec5f634c55e")
+			(uuid "aa297629-dfd6-4bec-b6d6-4c0e683bf9f5")
 			(effects
 				(font
 					(size 1 1)
@@ -32212,19 +32160,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "34e3ad73-d8fc-4b29-a38a-66df8d939b0c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "digikey" "535-14155-ND"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "593a9f94-e111-4846-9951-7a2019f7e66a")
 			(effects
 				(font
 					(size 1 1)
