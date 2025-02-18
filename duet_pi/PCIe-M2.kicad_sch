@@ -5788,6 +5788,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "36-24929CT-ND"
+			(at 250.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "duet_pi"
 				(path "/c80e2680-7312-4906-8194-724a8268cfde/d7b8ce31-b426-4b84-8730-2ca9f82012ca"
@@ -5853,6 +5862,15 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
+			(at 250.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "36-24929CT-ND"
 			(at 250.19 132.08 0)
 			(effects
 				(font
@@ -6452,6 +6470,15 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
+			(at 250.19 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "36-24929CT-ND"
 			(at 250.19 119.38 0)
 			(effects
 				(font
@@ -7855,6 +7882,15 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
+			(at 250.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "36-24929CT-ND"
 			(at 250.19 106.68 0)
 			(effects
 				(font
